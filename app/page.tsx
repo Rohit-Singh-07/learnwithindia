@@ -6,7 +6,6 @@ import Link from "next/link";
 import { Bars3Icon, XMarkIcon } from "@heroicons/react/24/solid";
 import { motion } from "framer-motion";
 import useLocomotiveScroll from "./hooks/useLocomotiveScroll"; // Import the custom hook
-import LocomotiveScroll from "locomotive-scroll";
 import "locomotive-scroll/dist/locomotive-scroll.css";
 
 export default function Home() {
@@ -95,7 +94,7 @@ export default function Home() {
             </div>
 
             <p className="text-[1.1vw]">
-              Bringing Tomorrow's Learning to Today's Classrooms
+              Bringing Tomorrow&apos;s Learning to Today&apos;s Classrooms
             </p>
           </div>
         </div>
