@@ -16,18 +16,32 @@
   }
 }
 
-body {
-  color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
+@font-face {
+  font-family: 'Satoshi-Regular';
+  src: url('/fonts/Satoshi-Regular.woff2') format('woff2'),
+       url('/fonts/Satoshi-Regular.woff') format('woff');
 }
 
-@layer utilities {
-  .text-balance {
-    text-wrap: balance;
-  }
+@font-face {
+  font-family: 'Satoshi-Black';
+  src: url('/fonts/Satoshi-Black.woff2') format('woff2'),
+       url('/fonts/Satoshi-Black.woff') format('woff');
 }
+
+@font-face {
+  font-family: 'Satoshi-Medium';
+  src: url('/fonts/Satoshi-Medium.woff2') format('woff2'),
+       url('/fonts/Satoshi-Medium.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'Satoshi-Bold';
+  src: url('/fonts/Satoshi-Bold.woff2') format('woff2'),
+       url('/fonts/Satoshi-Bold.woff') format('woff');
+}
+
+body {
+  font-family: 'Satoshi-Medium', sans-serif;
+}
+
+
