@@ -66,7 +66,7 @@ export default function Home() {
             </div>
 
             <motion.div
-              animate={{ scale: navMenu ? 1 : 0}}
+              animate={{ scale: navMenu ? 1 : 0 }}
               className="absolute top-[-7vw] left-[-7vw] bg-zinc-100 w-[20vw] h-[20vw] rounded-full"
             ></motion.div>
 
@@ -110,7 +110,6 @@ export default function Home() {
               href="/about"
               className="min-w-[35%] h-full bg-[#7663FF] rounded-[2vw] overflow-hidden relative"
             >
-              <img className="w-full h-full object-cover" src="" alt="" />
               <div className=" absolute flex flex-col justify-between top-0 left-0 h-full w-full p-[1vw] hover:p-[1.5vw] transition-all duration-500">
                 <div className="flex justify-between items-center w-full">
                   <span>Connect Us</span>
@@ -132,12 +131,9 @@ export default function Home() {
                 <div></div>
               </div>
             </Link>
-            <div className="h-full relative min-w-[40%] w-full bg-[#7663FF] rounded-[2vw] overflow-hidden">
-              <img className="w-full h-full object-cover" src="" alt="" />
-            </div>
+            <div className="h-full relative min-w-[40%] w-full bg-[#7663FF] rounded-[2vw] overflow-hidden"></div>
           </div>
           <div className="w-full h-[50%] bg-[#7663FF] rounded-[2vw] overflow-hidden relative">
-            <img className="w-full h-full object-cover" src="" alt="" />
             <div className=" absolute flex flex-col justify-between top-0 left-0 h-full w-full p-[1vw] hover:p-[1.5vw] transition-all duration-500">
               <div></div>
 
@@ -189,20 +185,12 @@ export default function Home() {
 
         <div className="w-full h-[45vw] flex flex-col gap-[1vw]">
           <div className="h-full w-full flex gap-[1vw]">
-            <div className="w-[40%] shrink-0 bg-[#7663FF] rounded-[2vw] overflow-hidden">
-              <img className="w-full h-full object-cover" src="" alt="" />
-            </div>
-            <div className="w-full bg-[#7663FF] rounded-[2vw] overflow-hidden">
-              <img className="w-full h-full object-cover" src="" alt="" />
-            </div>
+            <div className="w-[40%] shrink-0 bg-[#7663FF] rounded-[2vw] overflow-hidden"></div>
+            <div className="w-full bg-[#7663FF] rounded-[2vw] overflow-hidden"></div>
           </div>
           <div className="h-full w-full flex gap-[1vw]">
-            <div className="w-full bg-[#7663FF] rounded-[2vw] overflow-hidden">
-              <img className="w-full h-full object-cover" src="" alt="" />
-            </div>
-            <div className="w-full bg-[#7663FF] rounded-[2vw] overflow-hidden">
-              <img className="w-full h-full object-cover" src="" alt="" />
-            </div>
+            <div className="w-full bg-[#7663FF] rounded-[2vw] overflow-hidden"></div>
+            <div className="w-full bg-[#7663FF] rounded-[2vw] overflow-hidden"></div>
           </div>
         </div>
       </div>
